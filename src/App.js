@@ -1,25 +1,13 @@
-import ExpenseItem from './components/ExpenseItem.js';
+import Troskovi from './components/Troskovi.js';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-       <ExpenseItem></ExpenseItem>
-      <header className="App-header">
-        <p>
-          Ovo je samo moja aplikacija
-         
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Učim React
-        </a>
-      </header>
-      <ExpenseItem></ExpenseItem>
+    <div >
+     <h2>Hajde da počnemo!</h2>
+    <p>Ovo je moja aplikacija koja prati paralelno Aplikaciju iz kursa, ali promenjena!</p>
+    <Troskovi></Troskovi>
+     
     </div>
   );
 }
