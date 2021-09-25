@@ -1,13 +1,14 @@
-import logo from './logo.svg';
+import ExpenseItem from './components/ExpenseItem.js';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+       <ExpenseItem></ExpenseItem>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Ovo je samo moja aplikacija
+         
         </p>
         <a
           className="App-link"
@@ -15,9 +16,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Učim React
         </a>
       </header>
+      <ExpenseItem></ExpenseItem>
     </div>
   );
 }

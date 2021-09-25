@@ -1,5 +1,6 @@
 {
   "name": "samomoja",
+  "homepage": "https://matkos.in.rs/samomoja",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
